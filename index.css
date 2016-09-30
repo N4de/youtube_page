@@ -1,10 +1,15 @@
 body {
 	margin: 0;
+	font-family: Roboto,arial,sans-serif;
+	font-size: small;
 }
 
 /* boxes like the video player and description*/
 .box {
-	margin: 5px;
+	margin: 10px;
+	display: inline;
+	float: left;
+	background-color: white;
 }
 
 #header {
@@ -14,13 +19,52 @@ body {
 }
 
 #center {
-	background-color: grey;
+	background-color: #f1f1f1;
 	width: 100%;
 	height: 500px;
 }
 
 #footer {
-	background-color: green;
 	width: 100%;
 	height: 100px;
+	margin-top: 50px;
+}
+
+#player {
+	margin-left: 255px;
+}
+
+#sidebar {
+	width: 400px;
+	min-height: 400px;
+	margin-right: 0px;
+}
+
+#video-title {
+	width: 560px;
+	height: 100px;
+	margin-left: 255px;
+}
+
+.suggestion {
+	margin: 10px;
+	width: 168px;
+	height: 94px;
+	display: -webkit-inline-box;
+}
+
+.sidebar-text {
+	width: 168px;
+	height: 94px;
+	margin: 10px;
+	margin-left: 0;
+	float: right;
+}
+
+h3{
+	margin: 0;
+}
+
+h4 {
+	margin-left: 10px;
 }
