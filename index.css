@@ -2,14 +2,16 @@ body {
 	margin: 0;
 	font-family: Roboto,arial,sans-serif;
 	font-size: small;
+	height: 100%;
 }
 
 /* boxes like the video player and description*/
 .box {
 	margin: 10px;
-	display: inline;
+	display: block;
 	float: left;
 	background-color: white;
+	padding: 20px 10px;
 }
 
 #header {
@@ -21,29 +23,35 @@ body {
 #center {
 	background-color: #f1f1f1;
 	width: 100%;
-	height: 500px;
+	height: 1000px;
 }
 
 #footer {
 	width: 100%;
 	height: 100px;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 
 #player {
 	margin-left: 255px;
+	margin-bottom: 0;
+	padding: 0;
 }
 
 #sidebar {
-	width: 400px;
-	min-height: 400px;
+	width: 380px;
 	margin-right: 0px;
+	margin-left: 0;
+	margin-bottom: -70px;
 }
 
 #video-title {
-	width: 560px;
+	width: 541px;
 	height: 100px;
 	margin-left: 255px;
+	margin-right: 0;
+	margin-top: 0;
+	padding: 20px 10px;
 }
 
 .suggestion {
@@ -66,5 +74,24 @@ h3{
 }
 
 h4 {
+	margin: 0;
 	margin-left: 10px;
+}
+
+#video-title img {
+	width: 48px;
+	height: 48px;
+	padding: 10px;
+	padding-left: 0;
+}
+
+#video-description {
+	width: 541px;
+	min-height: 10px;
+	margin-left: 255px;
+	margin-top: 0;
+}
+
+.box-content {
+	display: inline;
 }
